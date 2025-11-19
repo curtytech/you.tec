@@ -61,6 +61,25 @@ export const Servicebox = [
     },
 ]
 
+export const partners = [
+    {
+        image: getImgPath('/images/partners/partner-1.svg'),
+        alt: 'Partner',
+        title: 'Partner 1',
+    },
+    {
+        image: getImgPath('/images/partners/partner-2.svg'),
+        alt: 'Partner',
+        title: 'Partner 2',
+    },
+    {
+        image: getImgPath('/images/partners/partner-3.svg'),
+        alt: 'Partner',
+        title: 'Partner 3',
+    },
+]
+
+
 export const portfolioinfo = [
     {
         image: getImgPath('/images/portfolio/cozycasa.png'),

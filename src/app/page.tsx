@@ -4,6 +4,8 @@ import Hero from '@/components/Home/Hero';
 import Counter from '@/components/Home/Counter'
 import Progresswork from '@/components/Home/WorkProgress';
 import Services from '@/components/Home/Services';
+import Partners from '@/components/Home/Partners';
+
 import Portfolio from '@/components/SharedComponent/portfollio'
 import Testimonial from '@/components/SharedComponent/Testimonial'
 import Blog from '@/components/SharedComponent/Blog'
@@ -18,10 +20,11 @@ export default function Home() {
       <Hero />
       <Counter isColorMode={false} />
       {/* <Progresswork isColorMode={false} /> */}
+      <Partners />
       <Services />
       <Portfolio />
       {/* <Testimonial /> */}
-      <Blog />
+      {/* <Blog /> */}
       {/* <Contactform /> */}
     </main>
   )
