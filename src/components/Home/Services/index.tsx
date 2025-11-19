@@ -47,7 +47,7 @@ const Services = () => {
               <p className='dark:text-white/50 text-base font-normal'>
                 {item.description}
               </p>
-              <Link
+              {/* <Link
                 href='#'
                 className='hover:text-blue-700 text-lg font-medium text-primary group flex items-center'>
                 Get Started
@@ -59,7 +59,7 @@ const Services = () => {
                     className=''
                   />
                 </span>
-              </Link>
+              </Link> */}
             </div>
           ))}
         </div>

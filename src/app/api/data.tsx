@@ -13,17 +13,17 @@ export const count = [
     {
         icon: getImgPath("/images/counter/star.svg"),
         value: "4.86",
-        description: "Out of 5 stars from 3896 reviews on Google platform",
+        description: "Avaliação média dos nossos clientes",
     },
     {
         icon: getImgPath("/images/counter/admin.svg"),
-        value: "364",
-        description: "Client testimonials received in the year 2021",
+        value: "20",
+        description: "Clientes satisfeitos",
     },
     {
         icon: getImgPath("/images/counter/bag.svg"),
-        value: "45M+",
-        description: "Revenue generated through new projects & marketing",
+        value: "20+",
+        description: "Projetos concluídos",
     },
 ];
 
