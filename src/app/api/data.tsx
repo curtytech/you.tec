@@ -39,26 +39,26 @@ export const Servicebox = [
         title: 'Web Apps',
         description: 'Somos especializados na criação de sistemas, sites e apps.',
     },
-    {
-        icon: getImgPath('/images/services/perfomance-optimization.svg'),
-        title: 'Design',
-        description: 'Criamos designs únicos e funcionais para seu negócio.',
-    },
+    // {
+    //     icon: getImgPath('/images/services/perfomance-optimization.svg'),
+    //     title: 'Design',
+    //     description: 'Criamos designs únicos e funcionais para seu negócio.',
+    // },
     {
         icon: getImgPath('/images/services/ux-design-product_2.svg'),
         title: 'Consultorias',
         description: 'Oferecemos consultorias personalizadas e implementações tecnológicas com o objetivo de otimizar o seu negócio.',
     },
-    {
-        icon: getImgPath('/images/services/ux-design-product_2.svg'),
-        title: 'APIs, Integrações e Banco de dados',
-        description: 'Desenhamos e implementamos APIs e integrações para conectar seus sistemas e bancos de dados.',
-    },
-    {
-        icon: getImgPath('/images/services/ux-design-product_2.svg'),
-        title: 'Midias Sociais',
-        description: 'Criamos e gerenciamos perfis nas principais mídias sociais, conectando seu público-alvo.',
-    },
+    // {
+    //     icon: getImgPath('/images/services/ux-design-product_2.svg'),
+    //     title: 'APIs, Integrações e Banco de dados',
+    //     description: 'Desenhamos e implementamos APIs e integrações para conectar seus sistemas e bancos de dados.',
+    // },
+    // {
+    //     icon: getImgPath('/images/services/social_network.svg'),
+    //     title: 'Midias Sociais',
+    //     description: 'Criamos e gerenciamos perfis nas principais mídias sociais, conectando seu público-alvo.',
+    // },
 ]
 
 export const portfolioinfo = [
