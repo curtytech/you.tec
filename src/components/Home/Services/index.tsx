@@ -47,6 +47,19 @@ const Services = () => {
               <p className='dark:text-white/50 text-base font-normal'>
                 {item.description}
               </p>         
+              {/* <Link
+                href='#'
+                className='hover:text-blue-700 text-lg font-medium text-primary group flex items-center'>
+                Get Started
+                <span>
+                  <Icon
+                    icon='ei:chevron-right'
+                    width='30'
+                    height='30'
+                    className=''
+                  />
+                </span>
+              </Link> */}
             </div>
           ))}
 

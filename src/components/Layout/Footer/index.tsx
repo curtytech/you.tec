@@ -24,17 +24,17 @@ const Footer: FC = () => {
               <h2 className='text-white py-10 text-[40px] leading-tight font-bold'>
                 Entre em contato conosco
               </h2>
-              <Link
+              {/* <Link
                 href='#'
                 className='px-9 py-3 rounded-lg bg-primary text-white hover:bg-blue-700 hover:shadow-none'>
                 Get Started
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className='md:col-span-4 sm:col-span-6 col-span-12 sm:flex items-center sm:min-h-25 py-10 justify-center shrink-0 md:border-r border-b sm:border-b-0 border-solid border-dark_border'>
             <div className='flex flex-col md:items-start items-center'>
               <span className='text-lg font-bold text-white pb-4 inline-block'>
-                Support
+                Fale conosco
               </span>
               <div className='pb-5 sm:block flex'>
                 <p className='text-base font-bold text-white'>Telefone</p>
@@ -51,7 +51,7 @@ const Footer: FC = () => {
                   curtytech@gmail.com
                 </Link>
               </div>
-              <div>
+              {/* <div>
                 <ul className='flex items-center gap-3 mt-[1.875rem]'>
                   <li className='group'>
                     <Link href='#' className=''>
@@ -114,11 +114,11 @@ const Footer: FC = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className='md:col-span-4 col-span-12 border-t md:border-none border-solid border-dark_border sm:flex items-center justify-end md:min-h-25 py-10 shrink-0'>
-            <div className='md:w-3/4 w-full sm:text-start text-center'>
+            {/* <div className='md:w-3/4 w-full sm:text-start text-center'>
               <span className='font-bold text-white pb-4 inline-block text-2xl'>
                 Subscribe newsletter
               </span>
@@ -137,7 +137,7 @@ const Footer: FC = () => {
                   Subscribe
                 </button>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -13,17 +13,17 @@ export const count = [
     {
         icon: getImgPath("/images/counter/star.svg"),
         value: "4.86",
-        description: "Out of 5 stars from 3896 reviews on Google platform",
+        description: "Avaliação média dos nossos clientes",
     },
     {
         icon: getImgPath("/images/counter/admin.svg"),
-        value: "364",
-        description: "Client testimonials received in the year 2021",
+        value: "20",
+        description: "Clientes satisfeitos",
     },
     {
         icon: getImgPath("/images/counter/bag.svg"),
-        value: "45M+",
-        description: "Revenue generated through new projects & marketing",
+        value: "20+",
+        description: "Projetos concluídos",
     },
 ];
 
@@ -60,6 +60,25 @@ export const Servicebox = [
     //     description: 'Criamos e gerenciamos perfis nas principais mídias sociais, conectando seu público-alvo.',
     // },
 ]
+
+export const partners = [
+    {
+        image: getImgPath('/images/partners/partner-1.svg'),
+        alt: 'Partner',
+        title: 'Partner 1',
+    },
+    {
+        image: getImgPath('/images/partners/partner-2.svg'),
+        alt: 'Partner',
+        title: 'Partner 2',
+    },
+    {
+        image: getImgPath('/images/partners/partner-3.svg'),
+        alt: 'Partner',
+        title: 'Partner 3',
+    },
+]
+
 
 export const portfolioinfo = [
     {
