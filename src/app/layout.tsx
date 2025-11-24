@@ -8,7 +8,7 @@ import Aoscompo from "@/utils/aos";
 import NextTopLoader from 'nextjs-toploader';
 import SessionProviderComp from "@/components/nextauth/SessionProvider";
 import { AuthDialogProvider } from "./context/AuthDialogContext";
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], weight: ["300","400","500","600","700"], display: "swap" });
 
 
 export default function RootLayout({
@@ -20,6 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+      </head>
       <body className={inter.className}>
       <NextTopLoader />
       <AuthDialogProvider>
