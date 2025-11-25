@@ -5,26 +5,26 @@ import Link from 'next/link';
 const Logo: React.FC = () => {
 
   return (
-    <Link href="/">
-      <p className='text-2xl font-bold text-white'>You.Tec</p>
-      {/* <Image
-        src={getImgPath("/images/logo/logo.svg")}
+    <Link href="/">      
+      {/* <p className='text-2xl font-bold text-white'>You.Tec</p> */}
+      <Image
+        src={getImgPath("/images/logo/youtec-logo.svg")}
         alt="logo"
-        width={160}
-        height={50}
-        style={{ width: 'auto', height: 'auto' }}
+        width={100}
+        height={20}
+        style={{ width: '700', height: 'auto' }}
         quality={100}
         className='dark:hidden'
-      /> */}
-      {/* <Image
-        src={getImgPath("/images/logo/logo-white.svg")}
+      />
+      <Image
+        src={getImgPath("/images/logo/youtec-logo.svg")}
         alt="logo"
-        width={160}
-        height={50}
-        style={{ width: 'auto', height: 'auto' }}
+        width={100}
+        height={20}
+        style={{ width: '700', height: 'auto' }}
         quality={100}
         className='dark:block hidden'
-      /> */}
+      />
     </Link>
   );
 };

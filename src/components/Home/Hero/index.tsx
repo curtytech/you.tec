@@ -1,5 +1,9 @@
 'use client'
 import Link from 'next/link'
+import Image from 'next/image'
+import { getImgPath } from '@/utils/image'
+
+
 
 const Hero = () => {
   return (
@@ -14,8 +18,17 @@ const Hero = () => {
 
           <span className='animate-pulse' style={{ animationDuration: '4s' }}>
             <div className="inline-block mb-5 ">
-              <span className="font-medium text-white rounded-lg p-5 bg-blue-600">Soluções digitais</span>
-            </div>
+              {/* <span className="font-medium text-white rounded-lg p-5 bg-blue-600">Soluções digitais</span> */}
+              <Image
+                src={getImgPath("/images/logo/youtec-logo.svg")}
+                alt="logo"
+                width={150}
+                height={20}
+                style={{ width: '1000', height: 'auto' }}
+                quality={100}
+                className='dark:block hidden'
+              />
+                          </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight ">
 
