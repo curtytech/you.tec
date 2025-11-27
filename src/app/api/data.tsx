@@ -114,6 +114,14 @@ export const portfolioinfo = [
         Class: 'md:mt-24'
     },
     {
+        image: getImgPath('/images/portfolio/phelipecurty.svg'),
+        alt: 'Portfolio',
+        title: 'Phelipe Curty',
+        slug: 'https://phelipecurty.vercel.app',
+        info: 'Portifólio, Experiência e Currículo.',
+        Class: 'md:mt-24'
+    },
+    {
         image: getImgPath('/images/portfolio/testetudo.svg'),
         alt: 'Portfolio',
         title: 'Teste Tudo',

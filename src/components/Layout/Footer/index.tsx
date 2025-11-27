@@ -21,9 +21,9 @@ const Footer: FC = () => {
                   className='dark:block hidden'
                 />
               </Link>
-              <h2 className='text-white py-10 text-[40px] leading-tight font-bold'>
+              {/* <h2 className='text-white py-10 text-[40px] leading-tight font-bold'>
                 Entre em contato conosco
-              </h2>
+              </h2> */}
               {/* <Link
                 href='#'
                 className='px-9 py-3 rounded-lg bg-primary text-white hover:bg-blue-700 hover:shadow-none'>
