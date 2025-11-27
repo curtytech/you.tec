@@ -18,8 +18,8 @@ const Hero = () => {
 
           <span className='animate-pulse' style={{ animationDuration: '4s' }}>
             <div className="inline-block mb-5 ">
-              {/* <span className="font-medium text-white rounded-lg p-5 bg-blue-600">Soluções digitais</span> */}
-              <Image
+              <span className="font-medium text-white rounded-lg p-4 bg-blue-600">Soluções digitais</span>
+              {/* <Image
                 src={getImgPath("/images/logo/youtec-logo.svg")}
                 alt="logo"
                 width={150}
@@ -27,8 +27,8 @@ const Hero = () => {
                 style={{ width: '1000', height: 'auto' }}
                 quality={100}
                 className='dark:block hidden'
-              />
-                          </div>
+              /> */}
+            </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight ">
 
@@ -52,12 +52,15 @@ const Hero = () => {
         </div>
 
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-          <div className="inline-flex flex-col items-center text-white">
-            <span className="text-xs sm:text-sm mb-2">Veja mais</span>
-            <svg className="w-4 h-4 sm:w-5 sm:h-5 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-            </svg>
-          </div>
+          <a href="#services" className="">
+            <div className="inline-flex flex-col items-center text-white">
+              <span className="text-xs sm:text-sm mb-2">Veja mais</span>
+              <svg className="w-4 h-4 sm:w-5 sm:h-5 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+              </svg>
+            </div>
+          </a>
+
         </div>
       </section>
     </>

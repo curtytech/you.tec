@@ -121,17 +121,17 @@ const PortfolioCard = () => {
       <div className='lg:px-9 m-auto px-0 max-w-[1600px] slider-container'>
         <Slider {...settings}>
           {portfolioinfo.map((item, index) => (
-            <Link key={index} href={`/portfolio/${item.slug}`} passHref>
+            <Link key={index} href={`${item.slug}`} target='_blank' passHref>
               <div
                 className={`px-3 group ${index % 2 !== 0 ? 'lg:mt-24 ' : ''}`}>
-                <div className='relative overflow-hidden rounded-lg'>
+                <div className='relative overflow-hidden rounded-lg '>
                   <Image
                     src={item.image}
                     alt={item.alt}
                     width={900}
                     height={800}
-                    style={{ width: '100%', height: 'auto' }}
-                    className='group-hover:scale-110 group-hover:cursor-pointer transition-all duration-500'
+                    style={{ width: '80%', height: '80%' }}
+                    className='m-auto  group-hover:scale-110 group-hover:cursor-pointer transition-all duration-500 animate-pulse '                     
                   />
                   {/* <AbstractBorders seed={`${item.slug}-${index}`} /> */}
                 </div>

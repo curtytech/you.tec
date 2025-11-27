@@ -16,6 +16,7 @@ const PortfolioList = () => {
                   alt={item.alt}
                   width={1200}
                   height={800}
+                  className='animate-bounce group-hover:animate-none'
                   style={{ width: '100%', height: 'auto' }}
                 />
               </div>

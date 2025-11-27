@@ -85,7 +85,7 @@ export const portfolioinfo = [
         image: getImgPath('/images/portfolio/habilidade.svg'),
         alt: 'Portfolio',
         title: 'Habilidade.Tech',
-        slug: 'Cozycasa',
+        slug: 'https://habilidade.tech',
         info: 'Plataforma de educação.',
         Class: 'md:mt-0'
     },
@@ -93,7 +93,7 @@ export const portfolioinfo = [
         image: getImgPath('/images/portfolio/cardapio.svg'),
         alt: 'Portfolio',
         title: 'Cardápio Virtual',
-        slug: 'Mars',
+        slug: 'https://cardapiovirtual.space/',
         info: 'Cardápio virtual para restaurantes.',
         Class: 'md:mt-24'
     },
@@ -101,7 +101,7 @@ export const portfolioinfo = [
         image: getImgPath('/images/portfolio/card.svg'),
         alt: 'Portfolio',
         title: 'Card.You',
-        slug: 'everyday-humans',
+        slug: 'https://card.you.tec.br',
         info: 'Cartão de visitas virtual.',
         Class: 'md:mt-0'
     },
@@ -109,7 +109,7 @@ export const portfolioinfo = [
         image: getImgPath('/images/portfolio/start.svg'),
         alt: 'Portfolio',
         title: 'Start.Space',
-        slug: 'rocket-squared',
+        slug: 'https://card.you.tec.br',
         info: 'Página Inicial Customizável.',
         Class: 'md:mt-24'
     },
@@ -117,49 +117,10 @@ export const portfolioinfo = [
         image: getImgPath('/images/portfolio/testetudo.svg'),
         alt: 'Portfolio',
         title: 'Teste Tudo',
-        slug: 'panda-logo',
+        slug: 'https://testetudo.vercel.app/',
         info: 'Plataforma de teste de hardware de computadores e celulares.',
         Class: 'md:mt-0'
     },
-    {
-        image: getImgPath('/images/portfolio/humans.png'),
-        alt: 'Portfolio',
-        title: 'Fusion Dynamics',
-        slug: 'fusion-dynamics',
-        info: 'Designation',
-        Class: 'md:mt-0'
-    },
-    {
-        image: getImgPath('/images/portfolio/cozycasa.png'),
-        alt: 'Portfolio',
-        title: 'InnovateX Ventures',
-        slug: 'innovate-x-ventures',
-        info: 'Designation',
-        Class: 'md:mt-24'
-    },
-    {
-        image: getImgPath('/images/portfolio/mars.png'),
-        alt: 'Portfolio',
-        title: 'Nebula Holdings',
-        slug: 'nebula-holdings',
-        info: 'Designation',
-        Class: 'md:mt-0'
-    },
-    {
-        image: getImgPath('/images/portfolio/panda-logo.png'),
-        alt: 'Portfolio',
-        title: 'Summit Partners',
-        slug: 'summit-partners',
-        info: 'Designation',
-        Class: 'md:mt-24'
-    },
-    {
-        image: getImgPath('/images/portfolio/roket-squred.png'),
-        alt: 'Portfolio',
-        title: 'Apex Strategies',
-        slug: 'apex-strategies',
-        info: 'Designation',
-        Class: 'md:mt-0'
-    },
+   
     
 ]
