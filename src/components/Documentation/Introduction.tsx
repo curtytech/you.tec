@@ -87,7 +87,7 @@ export const Introduction = () => {
         </div>
         <div className="mt-5">
           <p className="text-base font-medium text-midnight_text dark:text-white/50">
-            Venus Tailwind NextJs Template is built with Tailwindcss and Nextjs.
+            You Tec Tailwind NextJs Template is built with Tailwindcss and Nextjs.
           </p>
           <p className="text-base font-medium text-midnight_text dark:text-white/50">
             These theme is ready to use and you can totally customize as per

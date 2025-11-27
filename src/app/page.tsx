@@ -11,7 +11,7 @@ import Testimonial from '@/components/SharedComponent/Testimonial'
 import Blog from '@/components/SharedComponent/Blog'
 import Contactform from '@/components/Home/Contact';
 export const metadata: Metadata = {
-  title: "Venus",
+  title: "You Tec",
 };
 
 export default function Home() {

@@ -24,9 +24,9 @@ const Location = () => {
               </div>
               <div className='col-span-3'>
                 <Link
-                  href='mailto:headoffice@venus.com'
+                  href='mailto:headoffice@youtec.com'
                   className='sm:text-2xl text-xl text-white font-medium underline'>
-                  headoffice@venus.com
+                  headoffice@youtec.com
                 </Link>
                 <Link
                   href='tel:731-621-5503'
@@ -49,9 +49,9 @@ const Location = () => {
               </div>
               <div className='col-span-3'>
                 <Link
-                  href='mailto:Office@venus.com'
+                  href='mailto:Office@youtec.com'
                   className='sm:text-2xl text-xl text-white font-medium underline'>
-                  Office@venus.com
+                  Office@youtec.com
                 </Link>
                 <Link
                   href='tel:731-235-7993'

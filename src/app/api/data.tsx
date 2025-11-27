@@ -82,7 +82,7 @@ export const partners = [
 
 export const portfolioinfo = [
     {
-        image: getImgPath('/images/portfolio/cozycasa.png'),
+        image: getImgPath('/images/portfolio/habilidade.svg'),
         alt: 'Portfolio',
         title: 'Habilidade.Tech',
         slug: 'Cozycasa',
@@ -90,7 +90,7 @@ export const portfolioinfo = [
         Class: 'md:mt-0'
     },
     {
-        image: getImgPath('/images/portfolio/mars.png'),
+        image: getImgPath('/images/portfolio/cardapio.svg'),
         alt: 'Portfolio',
         title: 'Cardápio Virtual',
         slug: 'Mars',
@@ -98,7 +98,7 @@ export const portfolioinfo = [
         Class: 'md:mt-24'
     },
     {
-        image: getImgPath('/images/portfolio/humans.png'),
+        image: getImgPath('/images/portfolio/card.svg'),
         alt: 'Portfolio',
         title: 'Card.You',
         slug: 'everyday-humans',
@@ -106,7 +106,7 @@ export const portfolioinfo = [
         Class: 'md:mt-0'
     },
     {
-        image: getImgPath('/images/portfolio/roket-squred.png'),
+        image: getImgPath('/images/portfolio/start.svg'),
         alt: 'Portfolio',
         title: 'Start.Space',
         slug: 'rocket-squared',
@@ -114,7 +114,7 @@ export const portfolioinfo = [
         Class: 'md:mt-24'
     },
     {
-        image: getImgPath('/images/portfolio/panda-logo.png'),
+        image: getImgPath('/images/portfolio/testetudo.svg'),
         alt: 'Portfolio',
         title: 'Teste Tudo',
         slug: 'panda-logo',
