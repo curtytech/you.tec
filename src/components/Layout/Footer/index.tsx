@@ -14,9 +14,9 @@ const Footer: FC = () => {
                 <Image
                   src={getImgPath("/images/logo/youtec-logo.svg")}
                   alt="logo"
-                  width={100}
+                  width={200}
                   height={20}
-                  style={{ width: '700', height: 'auto' }}
+                  style={{ width: '1000', height: 'auto' }}
                   quality={100}
                   className='dark:block hidden'
                 />
@@ -123,40 +123,10 @@ const Footer: FC = () => {
           </div>
         </div>
       </div>
-      <div className='text-center gap-4 md:gap-0 flex-wrap p-7 border-t border-solid border-dark_border'>
-        <div>
-          <ul className='flex justify-center mb-4 items-center sm:gap-7 gap-3'>
-            <li className='text-base text-white/50'>
-              <Link href='/#about' className='hover:text-primary'>
-                About
-              </Link>
-            </li>
-            <li className='text-base text-white/50'>
-              <Link href='/#services' className='hover:text-primary'>
-                Services
-              </Link>
-            </li>
-            <li className='text-base text-white/50'>
-              <Link href='/portfolio' className='hover:text-primary'>
-                Portfolio
-              </Link>
-            </li>
-            <li className='text-base text-white/50'>
-              <Link href='/blog' className='hover:text-primary'>
-                Blog
-              </Link>
-            </li>
-            <li className='text-base text-white/50'>
-              <Link href='/contact' className='hover:text-primary'>
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </div>
+      <div className='text-center gap-4 md:gap-0 flex-wrap p-7 border-t border-solid border-dark_border'>        
         <div>
           <p className='text-base text-white/50'>
-            © 2025 <a href="https://www.phelipecurty.vercel.app" target="_blank" className="hover:text-primary">Phelipe Curty</a>
-            
+            © 2025 <a href="https://phelipecurty.vercel.app" target="_blank" className="hover:text-primary">Phelipe Curty</a>            
           </p>
         </div>
       </div>
