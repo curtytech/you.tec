@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const isProd = process.env.NODE_ENV === "production";
-const basePath = isProd ? `/you-nextjs` : "";
+const basePath = "";
 
 const nextConfig = {
   output: "export",
