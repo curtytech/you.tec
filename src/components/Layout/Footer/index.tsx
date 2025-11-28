@@ -52,43 +52,43 @@ const Footer: FC = () => {
                 </Link>
               </div>
               <div>
-                <ul className='flex items-center gap-3 mt-[1.875rem]'>
-                  <li className='group'>
+                <ul className='flex items-center gap-3 mt-[1.875rem] '>
+                  <li className='group animate-bounce [animation-duration:3s]'>
                     <Link href='https://www.facebook.com/phelipe.curty' className=''>
                        <span className='p-1 bg-blue-900 rounded-lg hover:bg-blue-700'>
                         <i className="fa-brands fa-facebook transition-colors"></i>
                       </span>
                     </Link>
                   </li>
-                  <li className='group'>
+                  <li className='group animate-bounce [animation-duration:3.5s] duration-700'>
                     <Link href='https://www.instagram.com/phelipecurty/' className=''>
                        <span className='p-1 bg-blue-900 rounded-lg hover:bg-blue-700'>
                         <i className="fa-brands fa-instagram transition-colors"></i>
                       </span>
                     </Link>
                   </li>
-                  <li className='group'>
+                  <li className='group animate-bounce [animation-duration:4s]'>
                     <Link href='https://www.linkedin.com/in/phelipecurty' target="_blank">
                       <span className='p-1 bg-blue-900 rounded-lg hover:bg-blue-700'>
                         <i className="fa-brands fa-linkedin-in transition-colors"></i>
                       </span>
                     </Link>
                   </li>
-                  <li className='group'>
+                  <li className='group animate-bounce [animation-duration:4s]'>
                     <Link href='https://wa.me/5521986342478' target="_blank">
                       <span className='p-1 bg-blue-900 rounded-lg hover:bg-blue-700'>
                         <i className="fa-brands fa-whatsapp transition-colors"></i>
                       </span>
                     </Link>
                   </li>
-                  <li className='group'>
+                  <li className='group animate-bounce [animation-duration:3.5s]'>
                     <Link href='https://www.github.com/curtytech' target="_blank">
                       <span className='p-1 bg-blue-900 rounded-lg hover:bg-blue-700'>
                         <i className="fa-brands fa-github transition-colors"></i>
                       </span>
                     </Link>
                   </li>
-                  <li className='group'>
+                  <li className='group animate-bounce [animation-duration:3s]'>
                     <Link href='https://www.youtube.com/@Phelipe-Curty' target="_blank">
                       <span className='p-1 bg-blue-900 rounded-lg hover:bg-blue-700'>
                         <i className="fa-brands fa-youtube transition-colors"></i>

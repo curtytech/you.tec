@@ -12,6 +12,28 @@ import Blog from '@/components/SharedComponent/Blog'
 import Contactform from '@/components/Home/Contact';
 export const metadata: Metadata = {
   title: "You Tec",
+  description: "Inovação, performance e design para seu produto digital. Construímos experiências que conectam.",
+  openGraph: {
+    title: "You Tec",
+    description: "Inovação, performance e design para seu produto digital. Construímos experiências que conectam.",
+    type: "website",
+    url: "https://seu-dominio/",
+    siteName: "You Tec",
+    images: [
+      {
+        url: "/images/og-cover.png",
+        width: 1200,
+        height: 630,
+        alt: "You Tec",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "You Tec",
+    description: "Inovação, performance e design para seu produto digital. Construímos experiências que conectam.",
+    images: ["/images/og-cover.png"],
+  },
 };
 
 export default function Home() {
