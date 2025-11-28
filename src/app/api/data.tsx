@@ -12,18 +12,18 @@ export const menuItems = [
 export const count = [
     {
         icon: getImgPath("/images/counter/star.svg"),
-        value: "4.86",
-        description: "Avaliação média dos nossos clientes",
+        value: "5",
+        description: "Anos de experiência",
     },
     {
         icon: getImgPath("/images/counter/admin.svg"),
-        value: "20",
-        description: "Clientes satisfeitos",
+        value: "15+",
+        description: "Clientes",
     },
     {
         icon: getImgPath("/images/counter/bag.svg"),
-        value: "20+",
-        description: "Projetos concluídos",
+        value: "50+",
+        description: "Projetos",
     },
 ];
 
