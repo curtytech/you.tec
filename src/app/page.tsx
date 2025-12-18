@@ -46,7 +46,7 @@ export default function Home() {
       <Services />
       <Portfolio />
       {/* <Testimonial /> */}
-      {/* <Blog /> */}
+      <Blog />
       {/* <Contactform /> */}
     </main>
   )

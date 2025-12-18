@@ -27,7 +27,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="180x180" href="/images/logo/youtec.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/youtec.ico" />
         <link rel="icon" type="image/png" sizes="16x16" href="/images/logo/youtec.ico" />
-        <link rel="manifest" href="/site.webmanifest" />
+        {/* <link rel="manifest" href="/site.webmanifest" /> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -40,7 +40,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <NextTopLoader />
         <AuthDialogProvider>
-          <SessionProviderComp session={session}>
+          {/* <SessionProviderComp session={session}> */}
             <ThemeProvider
               attribute="class"
               enableSystem={true}
@@ -53,7 +53,7 @@ export default function RootLayout({
               </Aoscompo>
               <ScrollToTop />
             </ThemeProvider>
-          </SessionProviderComp>
+          {/* </SessionProviderComp> */}
         </AuthDialogProvider>
       </body>
     </html>
