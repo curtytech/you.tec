@@ -18,8 +18,9 @@ const Blog: React.FC = () => {
     if (!mounted) return
 
     async function getPosts() {
+      console.log(process.env.NEXT_PUBLIC_API_URL)
       try {
-        const res = await fetch('http://blogyoutec.test/api/posts')
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/posts`)
         const data = await res.json()
         console.log(data.data)
         setPosts(data.data)

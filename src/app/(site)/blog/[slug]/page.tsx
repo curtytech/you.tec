@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export async function generateStaticParams() {
   try {
-    const res = await fetch('http://blogyoutec.test/api/posts')
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/posts`)
     const posts = await res.json()
     const postsArray = Array.isArray(posts) ? posts : posts.data || []
 
@@ -26,7 +26,7 @@ export default async function BlogPost({ params }: PageProps) {
   const { slug } = await params
   let post: any = null
   try {
-    const res = await fetch('http://blogyoutec.test/api/post/' + slug)
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/post/${slug}`)
     if (res.ok) {
       const data = await res.json()
       // Adjust if data is wrapped in 'data'
