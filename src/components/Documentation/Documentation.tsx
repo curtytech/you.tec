@@ -1,6 +1,6 @@
 import { Configuration } from './Configuration'
 import { DocNavigation } from './DocNavigation'
-import { Introduction } from './Introduction'
+// import { Introduction } from './Introduction-old'
 import { PackageStructure } from './PackageStructure'
 import { QuickStart } from './QuickStart'
 
@@ -13,7 +13,7 @@ export const Documentation = () => {
             <DocNavigation />
           </div>
           <div className='lg:col-span-9 col-span-12'>
-            <Introduction />
+            {/* <Introduction /> */}
             <PackageStructure />
             <QuickStart />
             <Configuration />

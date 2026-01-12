@@ -4,6 +4,19 @@ import Link from 'next/link'
 export async function generateStaticParams() {
   try {
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/posts`)
+    
+    // Check if response is OK and looks like JSON
+    if (!res.ok) {
+      console.warn('API returned error:', res.status, res.statusText)
+      return []
+    }
+    
+    const contentType = res.headers.get('content-type')
+    if (!contentType || !contentType.includes('application/json')) {
+      console.warn('API returned non-JSON content:', contentType)
+      return []
+    }
+
     const posts = await res.json()
     const postsArray = Array.isArray(posts) ? posts : posts.data || []
 
