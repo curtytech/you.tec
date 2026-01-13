@@ -1,42 +1,52 @@
+// 'use client'
 import React from 'react'
 import Link from 'next/link'
 
-export async function generateStaticParams() {
-  try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/posts`)
-    
-    // Check if response is OK and looks like JSON
-    if (!res.ok) {
-      console.warn('API returned error:', res.status, res.statusText)
-      return []
-    }
-    
-    const contentType = res.headers.get('content-type')
-    if (!contentType || !contentType.includes('application/json')) {
-      console.warn('API returned non-JSON content:', contentType)
-      return []
-    }
+// export async function generateStaticParams() {
+//   try {
+//     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/posts`)
+//     const posts = await res.json()
+//     const postsArray = Array.isArray(posts) ? posts : posts.data || []
 
-    const posts = await res.json()
-    const postsArray = Array.isArray(posts) ? posts : posts.data || []
+//     return postsArray.map((post: any) => ({
+//       slug: post.slug,
+//     }))
+//   } catch (error) {
+//     console.error('Error generating static params:', error)
+//     return []
+//   }
+// }
 
-    return postsArray.map((post: any) => ({
-      slug: post.slug,
-    }))
-  } catch (error) {
-    console.error('Error generating static params:', error)
-    return []
-  }
-}
+// type PageProps = {
+//   params: Promise<{
+//     slug: string
+//   }>
+// }
 
-type PageProps = {
-  params: Promise<{
+// export async function generateStaticParams() {
+//   try {
+//     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/posts`)
+//     const posts = await res.json()
+//     const postsArray = Array.isArray(posts) ? posts : posts.data || []
+
+//     return postsArray.map((post: any) => ({
+//       slug: post.slug,
+//     }))
+//   } catch (error) {
+//     console.error('Error generating static params:', error)
+//     return []
+//   }
+// }
+
+interface PageProps {
+  params: {
     slug: string
-  }>
+  }
 }
 
 export default async function BlogPost({ params }: PageProps) {
   const { slug } = await params
+  console.log(slug, 'slug')
   let post: any = null
   try {
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/post/${slug}`)

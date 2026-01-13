@@ -1,15 +1,15 @@
-import React from 'react'
+// import React from 'react'
 import { Metadata } from "next";
 import Hero from '@/components/Home/Hero';
 import Counter from '@/components/Home/Counter'
-import Progresswork from '@/components/Home/WorkProgress';
+// import Progresswork from '@/components/Home/WorkProgress';
 import Services from '@/components/Home/Services';
-import Partners from '@/components/Home/Partners';
+// import Partners from '@/components/Home/Partners';
 
 import Portfolio from '@/components/SharedComponent/portfollio'
-import Testimonial from '@/components/SharedComponent/Testimonial'
+// import Testimonial from '@/components/SharedComponent/Testimonial'
 import Blog from '@/components/SharedComponent/Blog'
-import Contactform from '@/components/Home/Contact';
+// import Contactform from '@/components/Home/Contact';
 export const metadata: Metadata = {
   title: "You Tec",
   description: "Inovação, performance e design para seu produto digital. Construímos experiências que conectam.",

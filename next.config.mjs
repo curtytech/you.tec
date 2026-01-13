@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === "production";
 const basePath = "";
 
 const nextConfig = {
-  output: "export",
+  // output: "export", // Disabled to allow dynamic routes without generateStaticParams
   basePath,
   assetPrefix: basePath,
   images: {
