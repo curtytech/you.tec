@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="pt-BR" suppressHydrationWarning>
       <head>
         <title>YouTec</title>
-        <meta name="description" content="Inovação, performance e design para seu produto digital. Construímos experiências que conectam." />
+        <meta name="description" content="Inovação, performance e design para seu negócio. Construímos sistemas web modernos e escaláveis." />
         <link rel="icon" href="/images/logo/youtec.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/images/logo/youtec.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/youtec.ico" />

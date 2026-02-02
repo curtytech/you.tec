@@ -125,7 +125,7 @@ export const portfolioinfo = [
         image: getImgPath('/images/portfolio/testetudo.svg'),
         alt: 'Portfolio',
         title: 'Teste Tudo',
-        slug: 'https://testetudo.vercel.app/',
+        slug: 'https://testetudo.you.tec.br/',
         info: 'Plataforma de teste de hardware de computadores e celulares.',
         Class: 'md:mt-0'
     },
