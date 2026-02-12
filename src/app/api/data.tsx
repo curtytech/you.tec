@@ -91,15 +91,31 @@ export const portfolioinfo = [
     },
     {
         image: getImgPath('/images/portfolio/cardapio.svg'),
-        alt: 'Portfolio',
+        alt: 'Cardápio Virtual',
         title: 'Cardápio Virtual',
         slug: 'https://cardapiovirtual.space/',
         info: 'Cardápio virtual para restaurantes.',
         Class: 'md:mt-24'
     },
     {
+        image: getImgPath('/images/portfolio/shop.svg'),
+        alt: 'Shop.You',
+        title: 'Shop.You',
+        slug: 'https://shop.you.tec.br/',
+        info: 'Loja virtual para vendas online.',
+        Class: 'md:mt-24'
+    },
+    {
+        image: getImgPath('/images/portfolio/style.svg'),
+        alt: 'Style.You',
+        title: 'Style.You',
+        slug: 'https://style.you.tec.br',
+        info: 'Plataforma de agendamento especializada em salões de beleza e barbearias.',
+        Class: 'md:mt-24'
+    },
+    {
         image: getImgPath('/images/portfolio/card.svg'),
-        alt: 'Portfolio',
+        alt: 'Card.You',
         title: 'Card.You',
         slug: 'https://card.you.tec.br',
         info: 'Cartão de visitas virtual.',
@@ -107,15 +123,15 @@ export const portfolioinfo = [
     },
     {
         image: getImgPath('/images/portfolio/start.svg'),
-        alt: 'Portfolio',
-        title: 'Start.Space',
-        slug: 'https://card.you.tec.br',
+        alt: 'Start',
+        title: 'StartYou',
+        slug: 'https://start.you.tec.br',
         info: 'Página Inicial Customizável.',
         Class: 'md:mt-24'
     },
     {
         image: getImgPath('/images/portfolio/phelipecurty.svg'),
-        alt: 'Portfolio',
+        alt: 'Phelipe Curty',
         title: 'Phelipe Curty',
         slug: 'https://phelipecurty.vercel.app',
         info: 'Portifólio, Experiência e Currículo.',
@@ -123,7 +139,7 @@ export const portfolioinfo = [
     },
     {
         image: getImgPath('/images/portfolio/testetudo.svg'),
-        alt: 'Portfolio',
+        alt: 'Teste Tudo',
         title: 'Teste Tudo',
         slug: 'https://testetudo.you.tec.br/',
         info: 'Plataforma de teste de hardware de computadores e celulares.',
