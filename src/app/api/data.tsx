@@ -98,7 +98,7 @@ export const portfolioinfo = [
         Class: 'md:mt-24'
     },
     {
-        image: getImgPath('/images/portfolio/shop.svg'),
+        image: getImgPath('/images/portfolio/shopyou.png'),
         alt: 'Shop.You',
         title: 'Shop.You',
         slug: 'https://shop.you.tec.br/',
