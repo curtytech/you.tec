@@ -130,7 +130,7 @@ export const portfolioinfo = [
         Class: 'md:mt-24'
     },
     {
-        image: getImgPath('/images/portfolio/phelipecurty.svg'),
+        image: getImgPath('/images/portfolio/phelipecurty.png'),
         alt: 'Phelipe Curty',
         title: 'Phelipe Curty',
         slug: 'https://phelipecurty.vercel.app',
