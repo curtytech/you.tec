@@ -85,7 +85,7 @@ export const portfolioinfo = [
         image: getImgPath('/images/portfolio/habilidade.svg'),
         alt: 'Portfolio',
         title: 'Habilidade.Tech',
-        slug: 'https://habilidade.tech',
+        slug: 'https://habilidade.you.tec.br/',
         info: 'Plataforma de educação.',
         Class: 'md:mt-0'
     },
@@ -93,7 +93,7 @@ export const portfolioinfo = [
         image: getImgPath('/images/portfolio/cardapio.svg'),
         alt: 'Cardápio Virtual',
         title: 'Cardápio Virtual',
-        slug: 'https://cardapiovirtual.space/',
+        slug: 'https://cardapio.you.tec.br/',
         info: 'Cardápio virtual para restaurantes.',
         Class: 'md:mt-24'
     },
