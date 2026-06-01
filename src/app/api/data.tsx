@@ -105,14 +105,14 @@ export const portfolioinfo = [
         info: 'Loja virtual para vendas online.',
         Class: 'md:mt-24'
     },
-    {
-        image: getImgPath('/images/portfolio/style.svg'),
-        alt: 'Style.You',
-        title: 'Style.You',
-        slug: 'https://style.you.tec.br',
-        info: 'Plataforma de agendamento especializada em salões de beleza e barbearias.',
-        Class: 'md:mt-24'
-    },
+    // {
+    //     image: getImgPath('/images/portfolio/style.svg'),
+    //     alt: 'Style.You',
+    //     title: 'Style.You',
+    //     slug: 'https://style.you.tec.br',
+    //     info: 'Plataforma de agendamento especializada em salões de beleza e barbearias.',
+    //     Class: 'md:mt-24'
+    // },
     {
         image: getImgPath('/images/portfolio/card.svg'),
         alt: 'Card.You',
